@@ -1,6 +1,3 @@
-<%# Classification view %>
-
-<%# Content Heading %>
 <% if (title) { %>
 <h1><%= title %></h1>
 <% } else {
@@ -17,5 +14,8 @@
 
 <%- messages() %> 
 
-<%# Inventory Items Display %>
-<%- grid %>
+<div class="vehicle-management">
+    <a href="/inv/add-classification" title="Add New Classification">Add New Classification</a>
+    <br>
+    <a href="/inv/add-inventory" title="Add New Vehicle">Add New Vehicle</a>
+</div>

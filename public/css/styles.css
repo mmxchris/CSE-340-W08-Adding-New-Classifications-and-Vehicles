@@ -291,6 +291,84 @@ footer, #footer{
   color: black;
   text-align: left;
 }
+.login-box,
+.register-box,
+.add-classification-box,
+.add-inventory-box{
+  max-width: 500px;
+  margin: 50px auto;
+}
+.login-box form,
+.register-box form,
+.add-classification-box form,
+.add-inventory-box form{
+  background: rgb(14, 131, 155);
+  padding: 40px;
+  border-radius: 10px;
+}
+.login-box h2,
+.register-box h2,
+.add-classification-box h2,
+.add-inventory-box h2 {
+  color: black;
+  margin: 0 0 20px 0;
+  font-size: 24px;
+}
+.login-box label,
+.register-box label,
+.add-classification-box label,
+.add-inventory-box label{
+  display: block;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.login-box input,
+.register-box input,
+.add-classification-box input,
+.add-inventory-box input{
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.login-box button,
+.register-box button,
+.add-classification-box button,
+.add-inventory-box button{
+  display: block;
+  margin: 30px auto 20px;
+  padding: 10px 40px;
+  background: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login-box p,
+.register-box p,
+.add-classification-box p,
+.add-inventory-box p{
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+}
+.login-box a,
+.register-box a,
+.add-classification-box a,
+.add-inventory-box a{
+  font-size: 16px;
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.vehicle-management {
+    margin-left: 40px;
+}
 
 @media (min-width: 660px) {
   body{
