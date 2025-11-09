@@ -3,7 +3,7 @@ const express = require("express")
 const router = new express.Router()
 const utilities = require("../utilities/")
 const invController = require("../controllers/invController")
-const classValidate = require('../utilities/classification-Validation')
+const classValidate = require('../utilities/classification-validation')
 const invValidate = require('../utilities/inventory-validation')
 
 //Route to build inventory by classification view
